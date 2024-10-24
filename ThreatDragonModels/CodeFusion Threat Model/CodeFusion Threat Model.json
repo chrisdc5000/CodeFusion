@@ -1,0 +1,16 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "CodeFusion Threat Model",
+    "owner": "Christopher Cooper",
+    "description": "Policy Docs, Financial Reports and Blog Posts",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Kweku Quainoo",
+    "threatTop": 0
+  }
+}
