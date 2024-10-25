@@ -821,15 +821,21 @@
                   "new": true,
                   "number": 3,
                   "score": ""
+                },
+                {
+                  "id": "997aadab-2030-429a-9554-72eebbde99c4",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 9,
+                  "score": ""
                 }
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -846,11 +852,13 @@
                 "text": "CodeFusion \nBlog Posts"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -946,13 +954,33 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "2f7f783f-e253-4def-9f51-998d38f6d12c",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1
+              }
             }
           },
           {
@@ -1195,23 +1223,23 @@
               "storesInventory": false,
               "threats": [
                 {
-                  "id": "46faa3db-fe15-46dd-b2fd-604083a5e95e",
+                  "id": "5d26f617-69b9-4040-b951-d0f30494ba52",
                   "title": "New STRIDE threat",
                   "status": "Open",
-                  "severity": "High",
-                  "type": "Repudiation",
-                  "description": "Lack of authentication on internal webserver creates a lack of repudiation on data integrity of policy documents and financial reports",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
-                  "number": 5,
+                  "number": 6,
                   "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 0,
-                "repudiation": 1,
-                "informationDisclosure": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 0
               }
             }
@@ -1230,8 +1258,8 @@
                 "text": "Internal \nWebserver"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1327,9 +1355,27 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "cead9165-0c06-4216-bf77-380ffda7323d",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 1
+              }
             }
           }
         ]
@@ -1337,6 +1383,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "Kweku Quainoo",
-    "threatTop": 5
+    "threatTop": 9
   }
 }
